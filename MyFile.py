@@ -5,9 +5,9 @@ pygame.init()
 win=pygame.display.set_mode((500,500))
 pygame.display.set_caption("Flappy Bird")
 
-Up=pygame.image.load('RJ_1.png')
-Down=pygame.image.load('RJ_2.png')
-bg=pygame.image.load('pygame_bg.jpg')
+Up=pygame.image.load('images/RJ_1.png')
+Down=pygame.image.load('images/RJ_2.png')
+bg=pygame.image.load('images/pygame_bg.jpg')
 
 score=0
 max_score=0
